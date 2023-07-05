@@ -94,6 +94,14 @@ a img:hover{ position: relative;
   top: -5px;
 } 
 
+div.menu-bar-container a:hover{
+  background-color: #bc2f23;
+}
+
+div.menu-bar-container a h2:hover{
+  color: white;
+}
+
 div .connect-container{
   display: flex;
   margin-left: 35px;
@@ -134,11 +142,6 @@ div .connect{
   margin-top: 10px;
 }
 
-/* .menu-bar-container a img { */
-  /* width: 45px; */
-  /* height: 29px; */
-/* } */
-
 .menu-bar-container a h2 {
   display: block;
   font-size: 1.5em;
@@ -163,8 +166,35 @@ div .sandwiches-container img{
 div .sandwich-description{
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
-.sandwiches-container .sandwich description {
+div.sandwich-description h3 , span {
+  margin-left: 10px;
+}
+
+
+div.Footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.Footer p{
+  display: flex;
+  justify-content: center;
+}
+
+.specialist{
+  justify-content: center;
+  display: flex;
+}
+
+.specialist ul{
+  max-width: 500px;
   display: block;
+}
+.specialist ul li {
+  display: inline;
+  justify-content: center;
 }
