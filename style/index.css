@@ -23,6 +23,11 @@ div.logo{
   height: 85px;
 }
 
+.logo-image:hover{
+  position: relative; 
+  top: -5px;
+}
+
 div .icons-container{
   display: flex;
   flex-direction: column;
@@ -90,7 +95,8 @@ div .connections{
   cursor: pointer;
 }
 
-a img:hover{ position: relative; 
+a img:hover{ 
+  position: relative; 
   top: -5px;
 } 
 
