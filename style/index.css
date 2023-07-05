@@ -94,6 +94,9 @@ a img:hover{ position: relative;
   top: -5px;
 } 
 
+.menu-bar {
+  justify-content: space-between;
+}
 div.menu-bar-container a:hover{
   background-color: #bc2f23;
 }
@@ -197,4 +200,9 @@ div.Footer p{
 .specialist ul li {
   display: inline;
   justify-content: center;
+}
+
+.salad , .soda{
+  width: 40px;
+  height: 45px;
 }
