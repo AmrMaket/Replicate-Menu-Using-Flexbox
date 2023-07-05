@@ -159,3 +159,12 @@ div .sandwiches-container img{
   height:365px;
   width: 344px;
 }
+
+div .sandwich-description{
+  display: flex;
+  flex-direction: column;
+}
+
+.sandwiches-container .sandwich description {
+  display: block;
+}
