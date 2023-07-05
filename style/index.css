@@ -94,7 +94,10 @@ a img:hover{ position: relative;
   top: -5px;
 } 
 
-.menu-bar {
+div.red-back:hover{
+  background-color: #bc2f23;
+}
+.menu-bar-container {
   justify-content: space-between;
 }
 div.menu-bar-container a:hover{
@@ -176,7 +179,6 @@ div.sandwich-description h3 , span {
   margin-left: 10px;
 }
 
-
 div.Footer{
   display: flex;
   flex-direction: column;
@@ -197,6 +199,7 @@ div.Footer p{
   max-width: 500px;
   display: block;
 }
+
 .specialist ul li {
   display: inline;
   justify-content: center;
