@@ -143,8 +143,19 @@ div .connect{
   display: block;
   font-size: 1.5em;
   font-weight: bold;
+  font: 18px "ufonts.com_dom-casual";
 }
 
 div .sandwiches-container{
   display: flex;
+  height: calc(100vh - 282px);
+  min-height: 476px;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+div .sandwiches-container img{
+  height:365px;
+  width: 344px;
 }
